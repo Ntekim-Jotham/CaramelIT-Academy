@@ -1,0 +1,77 @@
+
+#nav{
+     background-color: rgb(236, 231, 231);
+      margin-top: -20px;
+      margin-left: -20px;
+      box-shadow: 0 4px 20px 0 rgba(117, 113, 113, 0.9);
+      width: 65.6rem;
+      overflow-x: hidden;
+    }
+
+// mat-toolbar{
+//     height: 80px;
+// }
+// ul li{
+//     list-style: none;
+// }
+
+.dash{
+    font-size: x-large;
+    font-weight: 500;
+}
+
+.button-report{
+    border: none;
+    outline: 0;
+    font-weight: 600;
+    display: inline-block;
+    padding: 12px;
+    text-align: center;
+    cursor: pointer;
+    font-size: 18px;
+    border-radius: 40px;
+    margin:0 0 0 3rem;
+    background-image: linear-gradient(to right,#09C6F9 , #045DE9);
+  
+    color:white;
+    width:300px;
+}
+
+
+.notification{
+    
+    margin:0rem 0rem 0rem 3rem;
+
+}
+
+
+#messages{
+    position: relative;;
+    margin-top: 10px;
+}
+.badge{
+    position: relative;;
+  top: -15px;
+  padding: 5px 10px;
+  border-radius: 50%;
+  background-color: red;
+  color: white;
+
+}
+
+.searchbar input {
+    margin:auto;
+    position: relative;
+    border-radius: 40px;
+    border:none;
+    height: 40px;
+    min-width:340px;
+    background-color: rgba(0,0,0,0.2);
+    text-align: center;
+    margin-left: 30px;
+  }
+
+.nav-item form{
+    border: 1px solid rgb(177, 131, 46);
+    border: none;
+}

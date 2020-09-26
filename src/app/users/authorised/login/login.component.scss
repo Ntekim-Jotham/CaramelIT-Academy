@@ -1,0 +1,16 @@
+* {
+    box-sizing: border-box;
+    }
+    .background-img{
+        // background-position:center;
+        background-repeat: no-repeat;
+        background-size:cover;
+        z-index:1;
+        height:100%;
+        width:100%;
+        opacity: 1;
+        background-image: url("../../../../assets/images//background.jpeg");
+        margin-bottom: 15px;
+        padding-bottom: 14%;
+        
+    }

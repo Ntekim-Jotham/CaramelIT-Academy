@@ -1,0 +1,52 @@
+section{
+      width: 63rem;
+      overflow: hidden;
+}
+
+.card {
+
+    text-align: center;
+    font-family: arial;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+  .button-class {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-image: linear-gradient(to right,#09C6F9 , #045DE9);
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+  }
+  .card-profile:hover {
+    box-shadow: 0 4px 20px 0 rgba(0, 0, 0, 0.9);
+    transition-duration: 0.5s;
+  }
+  .card-profile .button-class:hover {
+    background-color: dodgerblue;
+  }
+  .card-profile .pt-2 {
+    font-size: 20px;
+  }
+  .section-header {
+    font-size: 34px;
+    font-weight: 400;
+    margin: 1rem 0 3rem 26rem;
+    // text-align: center;
+
+  }
+
+.courses {
+    z-index: 1;
+    padding-top: 2rem;
+  background-color: rgba(0, 0, 0, 0.05);
+  padding-left: -4rem !important;
+
+  }
+
+  .card-profile .pt-2{
+      text-align: center;
+  }

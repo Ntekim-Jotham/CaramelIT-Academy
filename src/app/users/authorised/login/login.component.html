@@ -1,0 +1,55 @@
+<div class="background-img">
+    <nav class="navbar navbar-expand-sm">
+        <!-- Brand/logo -->
+        <a class="navbar-brand" href="/">
+          <img src="../../../assets/images/caramelacademy.jpeg" alt="logo" style="width:240px; height:65px; margin:0px 0px 0px 0px;z-index: 2;border-radius: 40px 0px 0px 40px;">
+        </a>
+       </nav>
+  <div class="container">
+    <div class="row">
+        <div class="col-sm-9 col-md-7 col-lg-5 mx-auto">
+        <div class="card card-signin my-5" style="z-index: 2; position: relative;border-radius: 40px 40px 40px 40px;">
+          <div class="card-body">
+            <h2 class="card-title text-center"><b>Sign In As Instructor</b></h2>
+    			<span style="color:red;" th:text="${message}"></span> <br/><br/>
+            <form class="form-signin" th:action="@{/instructor/instructor_login}" th:object="${instructor}" method="post">
+              <!--<center>
+                {% if state == 2 %}
+                  <p style="color: red; font-size: small;">* Wrong password! please try again</p>
+                {% elif state == 3 %}
+                  <p style="color: red; font-size: small;">* User does not exists please sign up first</p>
+                {% endif %}
+              </center>
+              {% csrf_token %}-->
+              <div class="form-label-group">
+                <input name="email" th:field="*{email}" type="email" id="inputEmail" class="form-control" placeholder="Email address" required autofocus style="border-radius: 40px 40px 40px 40px;">
+        
+                <label for="inputEmail">Email address</label>
+                
+              </div>
+              <br>
+              <div class="form-label-group">
+                <input type="password" id="inputPassword" name="password" class="form-control" placeholder="Password" required style="border-radius: 40px 40px 40px 40px;">
+                
+                <label for="inputPassword">Password</label>
+                <br>
+              </div>
+
+              <!-- <div class="custom-control custom-checkbox mb-3">
+                <input type="checkbox" class="custom-control-input" id="customCheck1">
+                <label class="custom-control-label" for="customCheck1">Remember password</label>
+              </div> -->
+              <button class="btn btn-lg btn-primary btn-block text-uppercase" type="submit" style="color: white;">Sign In!</button>
+              <hr class="my-4">
+              <!-- <button class="btn btn-lg btn-google btn-block text-uppercase" type="submit"><i class="fab fa-google mr-2"></i> Sign in with Google</button>
+              <button class="btn btn-lg btn-facebook btn-block text-uppercase" type="submit"><i class="fab fa-facebook-f mr-2"></i> Sign in with Facebook</button> -->
+               <a style="font-size: 20px;" routerLinkActive="active" routerLink="/register">Sign Up</a><a class="float-right"  href="/instructor/instructor_forgot-password" style="font-size: 20px;">Forgot password?</a>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+
+  <!-- <router-outlet></router-outlet> -->

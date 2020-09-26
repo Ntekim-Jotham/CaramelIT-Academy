@@ -1,0 +1,38 @@
+:host{
+    height: 100%;
+}
+
+.bg{
+    background-position:bottom;
+    background-repeat: no-repeat;
+    background-size:cover;
+    z-index:1;
+    opacity: 1;
+    background-image: url("../../../../assets/images/teacher.jpg");
+    margin-bottom: 15px;
+    padding-bottom: 10%;
+}
+
+form{
+    position: relative;
+    top: -40px;
+}
+h1{
+    position: relative;
+    top: -40px;
+}
+
+.stureg{
+    height:40px;
+}
+.stugl{
+
+width:30px;
+height:26px;
+font-size:20px;
+}
+.stucheck{
+    width:20px;
+    height:20px;
+    color:blue;
+}

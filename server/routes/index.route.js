@@ -2,7 +2,7 @@ const jwtHelper = require('../config/jwtHelper');
 const express = require('express');
 const router = express.Router();
 const bodyParser=require('body-parser');
-const mongoose = require('mongoose');
+// const mongoose = require('mongoose');
 
 const app = express();
 
